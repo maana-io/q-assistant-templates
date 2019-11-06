@@ -4,12 +4,12 @@ Basic template for a create-react-app to be used as a maana Q assistant.
 
 ## What's inside?
 
--React App
--Maana Q Assistant Client npm library installed
--.env file with example variable printed in console (set in Dockerfile)
--Dockerfile
--nginx conf
--Build/Run scripts
+- React App
+- Maana Q Assistant Client npm library installed
+- .env file with example variable printed in console (set in Dockerfile)
+- Dockerfile
+- nginx conf
+- Build/Run scripts
 
 ## Default Functionality
 
