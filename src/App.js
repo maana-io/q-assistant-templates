@@ -9,29 +9,6 @@ console.log(
   process.env.REACT_APP_VAR
 )
 
-//
-// ----- Some quick queries to get you started ------
-//
-
-// Get the workspace.
-// const ws = await AssistantAPIClient.getWorkspace()
-
-// Get the workspace kinds.
-// const kinds = await ws.getKinds()
-
-// Get the workspace functions.
-// const funcs = await ws.getFunctions()
-
-// Get kind or function by ID.
-// const someKind = await AssistantAPIClient.getKindById('id....')
-// const someFunc = await AssistantAPIClient.getFunctionById('id....')
-
-// Get the active graph.
-// const ag = await ws.getActiveGraph()
-
-// Get the active graph's nodes.
-// const nodes = await ag.getNodes()
-
 async function addFunctionNode() {
   const createFunctionInput = {
     name: 'assistantGeneratedFunction',
