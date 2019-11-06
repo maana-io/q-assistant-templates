@@ -13,7 +13,10 @@ Basic template for a create-react-app to be used as a maana Q assistant.
 
 ## Default Functionality
 
--Creates function node and adds it to workspace.
+- Gets the current workspace.
+- Get the active graph from the workspace.
+- Creates a Function.
+- Adds the function as a node to the active graph in the workspace.
 
 ## Deployment:
 
