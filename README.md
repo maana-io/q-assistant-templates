@@ -36,3 +36,8 @@ Run locally using serve library
 ```
 sh localRun.sh
 ```
+
+## Learn more about using the Maana Q Assistant Client library
+
+- https://github.com/maana-io/q-assistant-client/tree/develop
+- https://www.npmjs.com/package/@io-maana/q-assistant-client
