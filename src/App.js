@@ -42,7 +42,6 @@ async function addFunctionNode() {
   }
 
   const func = await AssistantAPIClient.createFunction(createFunctionInput)
-
   const ws = await AssistantAPIClient.getWorkspace()
   const ag = await ws.getActiveGraph()
   const node = await ag.addNode('Function', func)
