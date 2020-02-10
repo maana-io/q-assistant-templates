@@ -4,7 +4,6 @@
   "homepage": ".",
   "private": true,
   "dependencies": {
-    "post-robot": "10.0.18",
     "@io-maana/q-assistant-client": "^3.2.1-beta.14",
     "dotenv": "^8.2.0",
     "react": "^16.11.0",
