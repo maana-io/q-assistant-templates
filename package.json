@@ -3,33 +3,35 @@
   "version": "0.1.0",
   "homepage": ".",
   "private": true,
-  "dependencies": {
-    "@io-maana/q-assistant-client": "^3.2.1-beta.14",
-    "dotenv": "^8.2.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0",
-    "serve": "^11.2.0"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch": "NODE_ENV=${NODE_ENV:=development} webpack --config scripts/devConfig.js --watch --progress",
+    "watch:prod": "NODE_ENV=production npm run watch"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@io-maana/q-assistant-client": "^3.2.1-beta.14",
+    "dotenv": "^8.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.4.0",
+    "serve": "^11.3.0"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "last 3 chrome version",
+      "last 3 edge version"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 chrome version"
     ]
   }
 }
