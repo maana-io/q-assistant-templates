@@ -8,6 +8,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "serve": "serve -c ./serve.json -s build -l 3000",
     "watch": "NODE_ENV=${NODE_ENV:=development} webpack --config scripts/devConfig.js --watch --progress",
     "watch:prod": "NODE_ENV=production npm run watch"
   },
@@ -25,13 +26,8 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      "last 3 chrome version",
-      "last 3 edge version"
-    ],
-    "development": [
-      "last 1 chrome version"
-    ]
-  }
+  "browserslist": [
+    "last 3 chrome version",
+    "last 3 edge version"
+  ]
 }

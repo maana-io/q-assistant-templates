@@ -6,8 +6,8 @@ Basic template for a create-react-app to be used as a maana Q assistant.
 
 - React App
 - Maana Q Assistant Client npm library installed
-- .env file with example variable printed in console (set in Dockerfile)
-- Dockerfile
+- `.env` file with example variable printed in console (set in `Dockerfile`)
+- `Dockerfile`
 - nginx conf
 - Build/Run scripts
 
@@ -18,26 +18,26 @@ Basic template for a create-react-app to be used as a maana Q assistant.
 - Creates a Function.
 - Adds the function as a node to the active graph in the workspace.
 
-## Deployment:
+## Local Development
 
-docker or local
+Run locally:
 
-Build with docker
+```bash
+# build project and watch for changes
+npm run watch
 
+# serve built assets (default port: 3000)
+npm run serve
 ```
+
+OR Run with Docker:
+
+```bash
+# build docker container
 sh dockerBuild.sh
-```
 
-Run with docker
-
-```
+# run docker container
 sh dockerRun.sh
-```
-
-Run locally using serve library
-
-```
-sh localRun.sh
 ```
 
 ## Learn more about using the Maana Q Assistant Client library
